@@ -48,7 +48,7 @@ func justify(text string) []string {
 			bufferLine += word + " "
 		} else {
 			lines = append(lines, bufferLine)
-			bufferLine = word
+			bufferLine = word + " "
 		}
 	}
 	lines = append(lines, bufferLine)
