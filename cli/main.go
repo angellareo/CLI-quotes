@@ -5,9 +5,11 @@ import (
 	"fmt"
 	"log"
 	"math/rand"
-	"time"
+	"strings"
 )
 
+// Quote  object  that  captures a quote from
+// the data set.
 type Quote struct {
 	Author      string `json:"author"`
 	SourceTitle string `json:"source"`
@@ -15,6 +17,7 @@ type Quote struct {
 	SourceURL   string `json:"link"`
 }
 
+// Parses the quotes out of the json
 func parseQuotes(blob []byte) []Quote {
 	var quotes []Quote
 	if err := json.Unmarshal(blob, &quotes); err != nil {
@@ -24,10 +27,48 @@ func parseQuotes(blob []byte) []Quote {
 	return quotes
 }
 
+// Selects a random quote for display
 func chooseRandomQuote(quotes []Quote) Quote {
-	rand.Seed(time.Now().UnixNano())
 	randomIndex := rand.Intn(len(quotes))
 	return quotes[randomIndex]
+}
+
+// justifies  the  quotes  to a set number of
+// characters per line for better display.
+func justify(text string) []string {
+	var (
+		maxSize    = 80
+		lines      = []string{}
+		words      = strings.Split(text, " ")
+		bufferLine = ""
+	)
+
+	for _, word := range words {
+		if len(bufferLine)+len(word)+1 < maxSize {
+			bufferLine += word + " "
+		} else {
+			lines = append(lines, bufferLine)
+			bufferLine = word
+		}
+	}
+	lines = append(lines, bufferLine)
+	return lines
+}
+
+// Prints  the  quotes  in  a  justified  and
+// beautiful way.
+func printQuoteText(quote Quote) {
+	for _, line := range justify(quote.Quote) {
+		fmt.Print(" ┃ ")
+		fmt.Println(line)
+	}
+}
+
+func printQuoteAuthor(quote Quote) {
+	fmt.Println()
+	fmt.Print(" ")
+	fmt.Println(quote.Author)
+	fmt.Println()
 }
 
 func main() {
@@ -36,6 +77,8 @@ func main() {
 		quotes      = parseQuotes(quotesFile)
 		randomQuote = chooseRandomQuote(quotes)
 	)
-	fmt.Println(randomQuote.Quote)
-	fmt.Printf("\n— %s\n\n", randomQuote.Author)
+
+	printQuoteAuthor(randomQuote)
+	printQuoteText(randomQuote)
+	fmt.Println()
 }
