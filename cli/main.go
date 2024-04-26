@@ -39,7 +39,7 @@ func justify(text string) []string {
 	var (
 		maxSize    = 80
 		lines      = []string{}
-		words      = strings.Split(text, " ")
+		words      = strings.Fields(text)
 		bufferLine = ""
 	)
 
@@ -59,15 +59,17 @@ func justify(text string) []string {
 // beautiful way.
 func printQuoteText(quote Quote) {
 	for _, line := range justify(quote.Quote) {
-		fmt.Print(" ┃ ")
+		fmt.Print("\033[95m ┃ \033[34m")
 		fmt.Println(line)
+		fmt.Print("\033[0m")
 	}
 }
 
 func printQuoteAuthor(quote Quote) {
 	fmt.Println()
-	fmt.Print(" ")
-	fmt.Println(quote.Author)
+	fmt.Print("\033[34m ")
+	fmt.Print(quote.Author)
+	fmt.Println("\033[0m")
 	fmt.Println()
 }
 
