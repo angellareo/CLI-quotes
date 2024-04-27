@@ -37,7 +37,7 @@ func chooseRandomQuote(quotes []Quote) Quote {
 // characters per line for better display.
 func justify(text string) []string {
 	var (
-		maxSize    = 80
+		maxSize    = 60
 		lines      = []string{}
 		words      = strings.Fields(text)
 		bufferLine = ""
