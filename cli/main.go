@@ -1,31 +1,10 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
-	"log"
 	"math/rand"
 	"strings"
 )
-
-// Quote  object  that  captures a quote from
-// the data set.
-type Quote struct {
-	Author      string `json:"author"`
-	SourceTitle string `json:"source"`
-	Quote       string `json:"quote"`
-	SourceURL   string `json:"link"`
-}
-
-// Parses the quotes out of the json
-func parseQuotes(blob []byte) []Quote {
-	var quotes []Quote
-	if err := json.Unmarshal(blob, &quotes); err != nil {
-		log.Fatal(err)
-	}
-
-	return quotes
-}
 
 // Selects a random quote for display
 func chooseRandomQuote(quotes []Quote) Quote {
@@ -74,12 +53,7 @@ func printQuoteAuthor(quote Quote) {
 }
 
 func main() {
-	var (
-		quotesFile  = []byte(quotesJSON)
-		quotes      = parseQuotes(quotesFile)
-		randomQuote = chooseRandomQuote(quotes)
-	)
-
+	randomQuote := chooseRandomQuote(quotes)
 	printQuoteAuthor(randomQuote)
 	printQuoteText(randomQuote)
 	fmt.Println()
