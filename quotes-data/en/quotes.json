@@ -1,0 +1,58 @@
+[
+    {
+        "author":      "Jacob Burckhardt",
+        "authorlink":  "https://en.wikipedia.org/wiki/Jacob_Burckhardt",
+        "link":        "https://medium.com/on-health-science-sexuality-and-psychoanalysis/denial-of-complexity-116055bd0bd8",
+        "quote":       "The essence of tyranny is the denial of complexity.\n\n",
+        "source":      "Who knows?"
+    },
+    {
+        "author":      "Alan Moore",
+        "authorlink":  "http://en.wikipedia.org/wiki/Alan_Moore",
+        "link":        "http://www.mtv.com/shared/movies/interviews/m/moore_alan_060315/",
+        "quote":       "I have a theory, which has not let me down so far, that there is an inverse relationship between imagination and money. Because the more money and technology that is available to [create] a work, the less imagination there will be in it.\n\n",
+        "source":      "interview on mtv.com"
+    },
+    {
+        "author":      "Tadhg Kelly",
+        "authorlink":  "https://www.whatgamesare.com/about.html",
+        "link":        "http://particleblog.blogspot.com/2006/07/stories-structure-abstraction-and.html",
+        "quote":       "And that's why Chess and Go remain as enduringly popular as they are, and why soccer is the most popular game on earth. Robustness and elegance are the key driving forces here, and they are in direct opposition to the brittleness and complexity, the defining traits of story.\n\n",
+        "source":      "Stories, Structure, Abstraction and Games"
+    },
+    {
+        "author":      "David Hestenes and Garret Sobczyk",
+        "authorlink":  "https://en.wikipedia.org/wiki/David_Hestenes",
+        "link":        "http://www.amazon.com/dp/9027725616",
+        "quote":       "Klein's seminal analysis of the structure and history of mathematics brings to light two major processes by which mathematics grows and becomes organized... The one emphasizes algebraic structure while the other emphasizes geometric interpretation. Klein's analysis shows one process alternately dominating the other in the historical development of mathematics. But there is no necessary reason that the two processes should operate in mutual exclusion. Indeed, each process is undoubtedly grounded in one of the two great capacities of the human mind: the capacity for language and the capacity for spatial perception. From the psychological point of view, then, the fusion of algebra with geometry is so fundamental that one could well say, 'Geometry without algebra is dumb! Algebra without geometry is blind!'\n\n",
+        "source":      "Clifford Algebra to Geometric Calculus: A Unified Language for Mathematics, p xii"
+    },
+    {
+        "author":      "C.A.R. Hoare",
+        "authorlink":  "https://en.wikipedia.org/wiki/C._A._R._Hoare",
+        "link":        "http://worrydream.com/refs/Hoare_1981_-_The_Emperors_Old_Clothes.pdf",
+        "quote":       "I conclude that there are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult. It demands the same skill, devotion, insight, and even inspiration as the discovery of the simple physical laws which underlie the complex phenomena of nature. It also requires a willingness to accept objectives which are limited by physical, logical, and technological constraints, and to accept a compromise when conflicting objectives cannot be met. No committee will ever do this until it is too late.\n\n",
+        "source":      "The Emperor's Old Clothes"
+    },
+    {
+        "author":      "Sol Stein",
+        "authorlink":  "https://en.wikipedia.org/wiki/Sol_Stein",
+        "link":        "https://www.goodreads.com/book/show/186004.Stein_on_Writing",
+        "quote":       "Nonfiction conveys information. Fiction conveys emotion.\n\n",
+        "source":      "Stein on Writing"
+    },
+    {
+        "author":      "Joe Armstrong",
+        "authorlink":  "https://en.wikipedia.org/wiki/Joe_Armstrong_(programmer)",
+        "link":        "http://portal.acm.org/citation.cfm?id=1238844.1238850",
+        "quote":       "It was during this conference that we realised that the work we were doing on Erlang was very different from a lot of mainstream work in telecommunications programming. Our major concern at the time was with detecting and recovering from errors. I remember Mike, Robert and I having great fun asking the same question over and over again: \"what happens if it fails?\" -- the answer we got was almost always a variant on \"our model assumes no failures.\" We seemed to be the only people in the world designing a system that could recover from software failures.\n\n",
+        "source":      "A History of Erlang"
+    },
+    {
+        "author":      "Cathy O'Neil",
+        "authorlink":  "https://en.wikipedia.org/wiki/Cathy_O%27Neil",
+        "link":        "https://lab.cccb.org/en/the-authority-of-the-inscrutable-an-interview-with-cathy-oneil/",
+        "quote":       "Algorithms are opinions embedded in math\n\n",
+        "source":      "Weapons of Math Destruction"
+    }
+]

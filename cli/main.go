@@ -46,9 +46,11 @@ func printQuoteText(quote Quote) {
 
 func printQuoteAuthor(quote Quote) {
 	fmt.Println()
-	fmt.Print("\033[34m ")
-	fmt.Print(quote.Author)
-	fmt.Println("\033[0m")
+	if quote.AuthorURL != "" {
+		fmt.Printf("\033[34m %s (%s)\033[0m\n", quote.Author, quote.AuthorURL)
+	} else {
+		fmt.Printf("\033[34m %s\033[0m\n", quote.Author)
+	}
 	fmt.Println()
 }
 
@@ -56,5 +58,13 @@ func main() {
 	randomQuote := chooseRandomQuote(quotes)
 	printQuoteAuthor(randomQuote)
 	printQuoteText(randomQuote)
+	printQuoteSource(randomQuote)
 	fmt.Println()
+}
+
+func printQuoteSource(quote Quote) {
+	fmt.Println()
+	if quote.SourceURL != "" {
+		fmt.Printf("\033[34m Source: \033[0m\033[96m%s\033[0m\n", quote.SourceURL)
+	}
 }

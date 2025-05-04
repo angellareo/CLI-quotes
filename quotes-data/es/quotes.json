@@ -1,0 +1,58 @@
+[    
+    {
+        "author":      "Jacob Burckhardt",
+        "authorlink":  "https://es.wikipedia.org/wiki/Jacob_Burckhardt",
+        "link":        "https://medium.com/on-health-science-sexuality-and-psychoanalysis/denial-of-complexity-116055bd0bd8",
+        "quote":       "La esencia de la tiranía es la negación de la complejidad.\n\n",
+        "source":      "Who knows?"
+    },
+    {
+        "author":      "Alan Moore",
+        "authorlink":  "http://en.wikipedia.org/wiki/Alan_Moore",
+        "link":        "http://www.mtv.com/shared/movies/interviews/m/moore_alan_060315/",
+        "quote":       "Tengo la teoría, que no me ha defraudado hasta ahora, de que existe una relación inversa entre imaginación y dinero. Porque cuanto más dinero y tecnología haya para [crear] una obra, menos imaginación habrá en ella.\n\n",
+        "source":      "interview on mtv.com"
+    },
+    {
+        "author":      "Tadhg Kelly",
+        "authorlink":  "https://www.whatgamesare.com/about.html",
+        "link":        "http://particleblog.blogspot.com/2006/07/stories-structure-abstraction-and.html",
+        "quote":       "Por eso el ajedrez y el go siguen siendo tan populares, y por eso el fútbol es el juego más popular del mundo. La robustez y la elegancia son las fuerzas motrices clave, y se oponen directamente a la fragilidad y la complejidad, rasgos definitorios de la historia.",
+        "source":      "Stories, Structure, Abstraction and Games"
+    },
+    {
+        "author":      "David Hestenes and Garret Sobczyk",
+        "authorlink":  "https://es.wikipedia.org/wiki/David_Hestenes",
+        "link":        "http://www.amazon.com/dp/9027725616",
+        "quote":       "El análisis seminal de Klein sobre la estructura y la historia de las matemáticas saca a la luz dos grandes procesos por los que las matemáticas crecen y se organizan... Uno pone el acento en la estructura algebraica y el otro en la interpretación geométrica. El análisis de Klein muestra que un proceso domina alternativamente al otro en el desarrollo histórico de las matemáticas. Pero no hay ninguna razón necesaria para que ambos procesos se excluyan mutuamente. De hecho, cada proceso se basa indudablemente en una de las dos grandes capacidades de la mente humana: la capacidad de lenguaje y la capacidad de percepción espacial. Desde el punto de vista psicológico, pues, la fusión del álgebra con la geometría es tan fundamental que bien podría decirse: «¡La geometría sin el álgebra es tonta! El álgebra sin la geometría es ciega».\n\n",
+        "source":      "Clifford Algebra to Geometric Calculus: A Unified Language for Mathematics, p xii"
+    },
+    {
+        "author":      "C.A.R. Hoare",
+        "authorlink":  "https://es.wikipedia.org/wiki/C._A._R._Hoare",
+        "link":        "http://worrydream.com/refs/Hoare_1981_-_The_Emperors_Old_Clothes.pdf",
+        "quote":       "Llego a la conclusión de que hay dos maneras de construir un diseño de software: Una forma es hacerlo tan simple que obviamente no haya deficiencias, y la otra forma es hacerlo tan complicado que no haya deficiencias obvias. El primer método es mucho más difícil. Exige la misma habilidad, devoción, perspicacia e incluso inspiración que el descubrimiento de las leyes físicas simples que subyacen a los complejos fenómenos de la naturaleza. También requiere la voluntad de aceptar objetivos limitados por restricciones físicas, lógicas y tecnológicas, y de aceptar un compromiso cuando no puedan alcanzarse objetivos contradictorios. Ningún comité lo hará hasta que sea demasiado tarde.\n\n",
+        "source":      "The Emperor's Old Clothes"
+    },
+    {
+        "author":      "Sol Stein",
+        "authorlink":  "https://en.wikipedia.org/wiki/Sol_Stein",
+        "link":        "https://www.goodreads.com/book/show/186004.Stein_on_Writing",
+        "quote":       "La no ficción transmite información. La ficción transmite emociones.",
+        "source":      "Stein on Writing"
+    },
+    {
+        "author":      "Joe Armstrong",
+        "authorlink":  "https://en.wikipedia.org/wiki/Joe_Armstrong_(programmer)",
+        "link":        "http://portal.acm.org/citation.cfm?id=1238844.1238850",
+        "quote":       "Fue durante esta conferencia que nos dimos cuenta de que el trabajo que estábamos haciendo en Erlang era muy diferente de muchos de los principales trabajos en programación en telecomunicaciones. Nuestra mayor preocupación en ese momento era la detección y recuperación de errores. Recuerdo que Mike, Robert y yo nos divertíamos mucho haciendo la misma pregunta una y otra vez: \"Qué pasa si falla?\" -- La respuesta que obteníamos era casi siempre una variante de \"Nuestro modelo asume que no existen fallos\". Parecíamos las únicas personas en el mundo diseñando un sistema que pudiese recuperarse ante los fallos del software",
+        "source":      "A History of Erlang"
+    },
+    {
+        "author":      "Cathy O'Neil",
+        "authorlink":  "https://es.wikipedia.org/wiki/Cathy_O%27Neil",
+        "link":        "https://lab.cccb.org/es/la-autoridad-de-lo-inescrutable-cathy-oneil/",
+        "quote":       "Los algoritmos son opiniones incrustadas en lenguaje matemático\n\n",
+        "source":      "Weapons of Math Destruction"
+    }
+]

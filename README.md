@@ -1,11 +1,32 @@
-# Bret Victor's Quote Dataset
+# CLI-quotes 
 
-So the amazing master Bret Victor, has this [amazing quotes page](https://worrydream.com/quotes/) where he has collected many interesting and amazing quotes over the years.
+A simple script to create and show a collection of quotes for your cli.
 
-I have made a tiny one-line code that scraps the page into a nice JSON for anyone to make things with the data. (Screen savers, widgets, stuff like that...)
+Built from [bret-victor-quotes](https://github.com/pouyakary/bret-victor-quotes) script.
 
-![](https://github.com/pouyakary/bret-victor-quotes-dataset-json/assets/2157285/878fbdca-f32e-44ee-aba7-d0b63f5b5f66)
+## Using the CLI app
 
-## Cli App.
+The CLI app can be built on UNIX via running `build-cli.sh`. Parameters can be used to select specific files and `-l LANG_CODE` to select language. So, for example:
+```bash
+build-cli.sh -l es quotes
+```
+Will build the spanish database stored in `quotes-data/es/quotes.json`.
 
-The CLI app can be built on UNIX via running `build-cli.sh`
+The CLI app can be installed using `install-cli.sh`
+
+## Adding quotes
+
+The dataset is stored (as json files) in `quotes-data/$LANG_CODE`. You can select 
+
+To modify the dataset in the app, edit the corresponding file, then re-build and re-install.
+
+An example quote:
+```json
+{
+    "author":      "Jacob Burckhardt",
+    "authorlink":  "https://en.wikipedia.org/wiki/Jacob_Burckhardt",
+    "link":        "https://medium.com/on-health-science-sexuality-and-psychoanalysis/denial-of-complexity-116055bd0bd8",
+    "quote":       "The essence of tyranny is the denial of complexity.\n\n",
+    "source":      "Who knows?"
+}
+```
