@@ -1,12 +1,21 @@
 # CLI-quotes 
 
+![Screenshot showing the CLI-quotes app](CLI-quotes-screenshot.png)
+
 A simple app to create quotes collection and show them in your cli.
 
 Built from [bret-victor-quotes](https://github.com/pouyakary/bret-victor-quotes) script.
 
 ## Using the CLI app
 
-The CLI app can be built on UNIX via running `build-cli.sh`. Parameters can be used to select specific files and `-l LANG_CODE` to select language. So, for example:
+The CLI app can be built on UNIX via running `build-cli.sh`. 
+
+First, install the requirements.
+```bash
+sudo apt install golang-go
+```
+
+Parameters can be used to select specific files and `-l LANG_CODE` to select language. So, for example:
 ```bash
 build-cli.sh -l es quotes
 ```
