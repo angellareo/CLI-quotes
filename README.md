@@ -1,6 +1,6 @@
 # CLI-quotes 
 
-A simple script to create and show a collection of quotes for your cli.
+A simple app to create quotes collection and show them in your cli.
 
 Built from [bret-victor-quotes](https://github.com/pouyakary/bret-victor-quotes) script.
 
@@ -12,7 +12,7 @@ build-cli.sh -l es quotes
 ```
 Will build the spanish database stored in `quotes-data/es/quotes.json`.
 
-The CLI app can be installed using `install-cli.sh`
+After building, the CLI app can be installed using `install-cli.sh`.
 
 ## Adding quotes
 
